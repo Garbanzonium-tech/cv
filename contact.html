@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Me</title>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <p>Phone: 1-555-555-5555</p>
+  <p>E-mail: 123fakestreet@gmail.com</p>
+  <p>Address: 123 Fake Street,</p>
+  <p>Hershey Mountain,</p>
+  <p>CH0C0L</p>
+  <hr>
+  <form action="mailto:jeffreyallenrmt@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label for="method-of-contact">Method of Contact:</label>
+    <input list="method-of-contact" id="choice-of-contact" name="choice-of-contact"/>
+      <datalist id="method-of-contact">
+        <option value="email"></option>
+        <option value="phone"></option>
+        <option value="mail"></option>
+      </datalist><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="" id="submit">
+  </form>
+
+
+  <form>
+    <fieldset>
+      <legend>Choose your favorite monster</legend>
+      <input type="radio" id="kraken" name="monster">
+      <label for="kraken">Kraken</label><br>
+      <input type="radio" id="sasquatch" name="monster">
+      <label for="sasquatch">Sasquatch</label><br>
+      <input type="radio" id="mothman" name="monster">
+      <label for="mothman">Mothman</label><br>
+    </fieldset>
+  </form>
+<!--    <input type="color" name="" value=""><br> !-->
+    <br>
+    <label>Do you want to sign up to the email list</label>
+    <input type="checkbox" name="" value="">
+    <br>
+    <input type="submit" name=""><br><br>
+    <input type="button" name="button" value="Press here">
+    <label>for more.</label>
+</body>
+</html>
